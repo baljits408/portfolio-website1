@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles1.css">
+</head>
+<body class="background">
+    <header class="page-header">
+        <img src="https://placehold.co/200x70" alt="" class="navigation__logo page-header__item">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="home_navigation">
+                <li role="presentation-home">
+                    <a href="index2.html" role="menuitem" class="home_navigation">Home</a>
+                </li>
+                <li role="presentation-home">
+                    <a href="about.html" role="menuitem" class="home_navigation">About</a>
+                </li>
+                <li role="presentation-home">
+                    <a href="contact2.html" role="menuitem" class="home_navigation">Contact</a>
+                </li>
+                <li role="presentation-home">
+                    <a href="work.html" role="menuitem" class="home_navigation">Work</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="contact__list__item">
+        <h1 class="heading__title">Contact</h1>
+        <div class="my__address1">
+            <br>Baljit Singh
+            <br>1234 Career Dr
+            <br>San Jose, California
+            <br>95116
+        </div>
+    </div>
+
+    <div class="contact__list__item"> 
+        <div>
+            Telephone <a role="my-telephone" href="tel:+4087128261">+4087128261</a>
+        </div>
+        <div>
+            Email <a role="my-email" href="mailto:baljits.work@gmail.com">baljits.work@gmail.com</a>
+        </div>
+        <div>
+            <a role="contact-me" href="mailto:baljits.work@gmail.com">Contact me</a>
+        </div>
+    </div>
+    <form action="" method="post" id="contact-form">
+        <div>
+            <label class="standard-label" for="name">Name:</label>
+            <input type="name" id="name" required>
+        </div>
+        <div>
+            <label class="standard-label" for="contact-email">E-mail: </label>
+            <input type="email" id="contact-email" required>
+        </div>
+        <div>
+            <label class="standard-label" for="my-telephone">Telephone:</label>
+            <input type="tel" id="my-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+        </div>
+        <div>
+            <label class="standard-label" for="message-to-me">Message: </label>
+            <textarea id="message-to-me" required maxlength="240"></textarea>
+        </div>
+        <div>
+            <input type="submit" id="button" value="Send Message">
+        </div>
+    </form>
+    <footer>
+        <div class="footer_navigation__list">
+            <p>Find me on</p>
+            <div>
+                <a href="https://www.github.com/"><img src="img/github_icon.svg" alt="Github" class="footer__navigation_item"></a>
+                <a href="https://www.twitter.com/"><img src="img/x_icon.svg" alt="X" class="footer__navigation_item"></a>
+                <a href="https://www.linkedin.com/"><img src="img/linkedin_icon.svg" alt="LinkedIn" class="footer__navigation_item"></a>
+            </div>
+        </div>
+        <div>
+            <a href="#">Back to the top</a>
+        </div>
+    </footer>
+<script src="js/totally.min.js"></script>
+</body>
+</html>
